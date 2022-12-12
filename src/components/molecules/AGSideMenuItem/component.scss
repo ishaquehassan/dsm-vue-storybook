@@ -1,0 +1,48 @@
+li {
+  @include reset-style;
+  display: block;
+
+  a {
+    font-size: 14px;
+    display: block;
+    position: relative;
+    color: $secondary-color;
+    padding: 10px 5px;
+    display: flex;
+    align-items: center;
+    padding-left: spacing(6);
+    font-weight: $font-weight-semi-bold;
+    border-radius: $border-radius-8;
+    text-decoration: none;
+    margin-bottom: 7px;
+    text-align: left;
+
+    i {
+      position: absolute;
+      left: 15px;
+      line-height: 0.3;
+    }
+  }
+
+  a.router-link-exact-active,
+  a.active,
+  a:hover {
+    background-color: $green-color;
+    color: $white-color;
+
+    i {
+      img {
+        filter: brightness(0) invert(1);
+      }
+    }
+  }
+
+  &:last-child {
+    padding-top: spacing(2.5);
+    margin-top: spacing(2.5);
+    border-top: 2px solid $sidebar-menu-border-color;
+
+    a {
+    }
+  }
+}

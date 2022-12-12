@@ -1,0 +1,36 @@
+li {
+
+  &.no-icon{
+    .dropdown-item {
+      padding: 15px 10px 15px 10px;
+    }
+  }
+
+  .dropdown-item {
+    font-size: 16px;
+    font-weight: $font-weight-medium;
+    color: $primary-color;
+    display: flex;
+    align-items: center;
+    padding: 15px 10px 15px 70px;
+    text-align: left;
+    position: relative;
+
+    &:hover {
+      color: $green-color;
+    }
+
+    i.icon {
+      width: 40px;
+      height: 40px;
+      background: $light_gray_color;
+      border-radius: 8px;
+      position: absolute;
+      left: 15px;
+
+      img {
+        @include position-center;
+      }
+    }
+  }
+}

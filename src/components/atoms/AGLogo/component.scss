@@ -1,0 +1,11 @@
+.logo {
+  padding-top: 15px;
+  padding-bottom: 30px;
+  text-align: center;
+
+  img {
+    &:first-child {
+      margin-right: 10px;
+    }
+  }
+}

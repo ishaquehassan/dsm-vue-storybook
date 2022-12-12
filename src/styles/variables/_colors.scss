@@ -1,0 +1,60 @@
+//AG theme variable
+
+$primary-font-family: 'Inter', Avenir, Helvetica, Arial, sans-serif;
+$font-weight-light: 300;
+$font-weight-regular: 400;
+$font-weight-medium: 500;
+$font-weight-semi-bold: 600;
+$font-weight-bold: 700;
+
+
+//Colors
+
+$login-screen-color: #ECF9F5;
+$primary-color: #111827;
+$primary-color-hover: #0ca572;
+$secondary-color: #6B7280;
+$green-color: #10B981;
+$white-color: #ffffff;
+$form-input-border:#D1D5DB;
+$sidebar-menu-border-color: rgba(16, 185, 129, 0.08);
+$light_gray_color: #F3F4F6;
+
+
+//Shadow
+
+$header_shadow: 0px 1px 1px rgba(100, 116, 139, 0.06), 0px 1px 2px rgba(100, 116, 139, 0.1);
+$shadow_login: 0px 4px 6px -2px rgba(100, 116, 139, 0.05), 0px 10px 15px -3px rgba(100, 116, 139, 0.12);
+
+// Border Size
+
+$border-radius-16: 16px;
+$border-radius-8: 8px;
+
+
+//Border Color
+
+$light_gray_border: #F5F5F5;
+
+
+// Bootstrap variables
+$body-bg: #ccc;
+$body-color: #6B7280;
+$secondary: #ccc;
+$nav-tabs-link-active-bg: #000000;
+$nav-tabs-link-active-color: #FFFFFF;
+$btn-color: #ffffff;
+
+
+
+//Button Style Reset
+$btn-padding-y: 0.8rem;
+$btn-font-weight: $font-weight-semi-bold;
+$btn-font-size: 15px;
+$btn-color:$white-color;
+$btn-btn-border-radius: $border-radius-8;
+
+
+
+
+

@@ -1,4 +1,4 @@
-import SampleComponent from "./SampleComponent.vue";
+import SampleComponent from "../components/atoms/AGButton";
 
 export default {
   title: "Example/SampleComponent",
@@ -8,5 +8,5 @@ export default {
 export const Default = () => ({
   components: { SampleComponent },
   template:
-    '<SampleComponent headingText="blah blah blah!" bodyText="bodytext">'
+    '<SampleComponent headingText="blah blah blah!" bodyText="bodytext" />'
 });

@@ -1,0 +1,14 @@
+//Header AG
+.ag_header {
+  background: $white-color;
+  box-shadow: $header_shadow;
+  height: 72px;
+  position: relative;
+
+  .header_inner_row {
+    @include align-right;
+    align-items: center;
+    padding: 5px 30px;
+    height: 100%;
+  }
+}

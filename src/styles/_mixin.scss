@@ -1,0 +1,53 @@
+@function spacing($amount) {
+  @return ($amount * 8) + px;
+}
+
+
+
+@mixin for-safari-only {
+  @supports (-webkit-hyphens: none) {
+    @content;
+  }
+}
+
+@mixin for-ios-only {
+  @supports (-webkit-touch-callout: none) {
+    @content;
+  }
+}
+
+
+@mixin vertically-horizontally-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+@mixin vertically-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+@mixin align-right {
+  display: flex;
+  justify-content: flex-end;
+}
+
+
+@mixin reset-style {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+@mixin position-center {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+}

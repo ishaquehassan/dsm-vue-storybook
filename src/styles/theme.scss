@@ -1,0 +1,85 @@
+@import "fonts";
+@import "variables";
+@import "mixin";
+
+@import "bootstrap/scss/bootstrap";
+@import 'node_modules/bootstrap-vue-3/src/styles/styles';
+
+
+
+.btn.btn-primary {
+  --bs-btn-color: #fff;
+  background: $green-color ;
+  --bs-btn-border-color: $green-color;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: $green-color;
+  --bs-btn-hover-border-color: $green-color;
+  --bs-btn-focus-shadow-rgb: 49, 132, 253;
+  --bs-btn-active-color: $green-color;
+  --bs-btn-active-bg: $green-color;
+  --bs-btn-active-border-color: $green-color;
+  --bs-btn-disabled-color: #fff;
+  --bs-btn-disabled-bg: hsl(160deg 84% 39% / 58%);
+  --bs-btn-disabled-border-color: hsl(160deg 84% 39% / 58%);
+
+  &:hover, &:focus, &:active{
+    background-color: $primary-color-hover;
+    color: $white-color;
+  }
+}
+.form-group {
+  text-align: left;
+  position: relative;
+  text-align: left;
+  position: relative;
+  margin-bottom: 37px !important;
+  margin-top: 7px;
+  label{
+    letter-spacing: 0.15px;
+    color: $primary-color;
+    font-size: 12px;
+    font-weight: $font-weight-medium;
+    margin-bottom: 0;
+    background: $white-color;
+    position: absolute;
+    top: -8px;
+    left: 12px;
+    padding: 0px 7px;
+  }
+  .form-control {
+    background-color: $white-color;
+    border: $form-check-input-border;
+    color: $primary-color;
+    height: 60px;
+    border-radius: $border-radius-8;
+    font-size: 16px;
+    margin-bottom: spacing(2);
+    padding-left: 19px;
+
+    &:focus {
+      background-color: $white-color;
+      border: 1px solid $green-color;
+      box-shadow: none;
+      color: $primary-color;
+    }
+  }
+
+}
+.forgot_card{
+    text-align: right;
+    margin-top: -10px;
+    margin-bottom: 30px;
+}
+
+.btn-link{
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  color: $green-color;
+  font-weight: $font-weight-medium;
+  padding-right: 0px;
+  font-size: 12px;
+  &:hover, &:active, &:focus
+  {
+    color: $primary-color-hover;
+  }
+}
